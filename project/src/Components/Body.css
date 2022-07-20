@@ -45,3 +45,15 @@
     margin-top: 5px;
     
 }
+
+.btnn{
+    float: right;
+}
+
+.reset{
+    color:"primary"
+}
+
+.saveChanges{
+    background: blueviolet;
+}

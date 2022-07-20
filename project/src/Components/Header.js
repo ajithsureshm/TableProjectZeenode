@@ -1,6 +1,6 @@
 
 import './Header.css'
-import React from 'react'
+import React, { useState } from 'react'
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import LiveTvIcon from '@mui/icons-material/LiveTv';
 import SettingsIcon from '@mui/icons-material/Settings';
@@ -8,12 +8,22 @@ import TouchAppIcon from '@mui/icons-material/TouchApp';
 import VpnKeyIcon from '@mui/icons-material/VpnKey';
 
 function Header() {
+
+    const [checkout, setCheckout] = useState(false)
+
+    const handleCheckout = ()=>{
+        setCheckout(!checkout)
+    }
+    
+
   return (
     <div className='main' >
 
         <div className='sub' >
             <div className='icons' > <StorefrontIcon/> </div>
-            <div className='text'>Checkout Steps</div>
+            <div className='text' 
+            // onClick={handleCheckout()} 
+            >Checkout Steps</div>
 
         </div>
 
