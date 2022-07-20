@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+justify-content: left;    
+    
+}
+
+.sub{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 9px;
+    margin-top: 25px;
+    cursor: pointer;
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.icons{
+    transform: scale(0.8);
+
+}
+.sub:hover{
+    border: 2px solid blue;
+    font-size: larger;
+}
+
+.text{
+    margin-top: 5px;
+}

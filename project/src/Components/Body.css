@@ -1,0 +1,47 @@
+.add{
+    float: right;
+    display: flex;
+    margin-top: 6px;
+    cursor: pointer;
+    
+}
+
+.add:hover{
+    color: darkturquoise;
+}
+
+.add_button{
+    margin-top: 5px;
+}
+
+.table_head{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    
+}
+
+.head{
+    display: flex;
+}
+
+.tbody{
+    text-align: center;
+}
+.thead{
+    text-align: center;
+}
+
+.index{
+    height: 36px;
+    width: 51px;
+}
+
+.index_main{
+    align-items: center;
+    display: inline-flex;
+    border-radius: 9px;
+    height: 42px;
+    margin-top: 5px;
+    
+}
