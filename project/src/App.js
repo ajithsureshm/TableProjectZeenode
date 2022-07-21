@@ -1,16 +1,29 @@
 import './App.css';
 import Header from './Components/Header';
-import Body from './Components/Body';
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import CheckOut from './pages/CheckOut';
 
 function App() {
+
   return (
+
+    <Router>
     <div>
-      <Header/>
+
+      <Routes>
+
+      <Route path='/' exact element={<Header/>} />
+
+      <Route path='/checkout'  element={<CheckOut/>} />
+
+
+      </Routes>
       
-      <Body/>
+      
     </div>
+    </Router>
   );
 }
 

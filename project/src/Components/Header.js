@@ -6,28 +6,32 @@ import LiveTvIcon from '@mui/icons-material/LiveTv';
 import SettingsIcon from '@mui/icons-material/Settings';
 import TouchAppIcon from '@mui/icons-material/TouchApp';
 import VpnKeyIcon from '@mui/icons-material/VpnKey';
+import { useNavigate } from 'react-router-dom';
+
 
 function Header() {
 
+    const navigate = useNavigate();
+
     const [checkout, setCheckout] = useState(false)
 
-    const handleCheckout = ()=>{
-        setCheckout(!checkout)
-    }
-    
-
+  
   return (
     <div className='main' >
 
-        <div className='sub' >
+        <div className='sub'   onClick={() => {
+              navigate("/checkout");
+            }} >
             <div className='icons' > <StorefrontIcon/> </div>
             <div className='text' 
-            // onClick={handleCheckout()} 
+         
             >Checkout Steps</div>
 
         </div>
 
-        <div className='sub'>
+        <div className='sub'  onClick={() => {
+              navigate("/");
+            }}>
         <div className='icons' > <LiveTvIcon/> </div>
             
             <div className='text'>Display Settings</div>

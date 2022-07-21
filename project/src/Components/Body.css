@@ -27,6 +27,7 @@
 
 .tbody{
     text-align: center;
+    cursor: pointer;
 }
 .thead{
     text-align: center;
@@ -56,4 +57,139 @@
 
 .saveChanges{
     background: blueviolet;
+}
+
+.enabled{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    display: flex;
+}
+
+.stepTitle{
+    padding-left: 45%;
+}
+
+.name{
+    margin-top: 2rem;
+
+}
+
+.shippingDiv{
+    display: flex;
+}
+
+.shipping{
+    border: 1px solid black;
+}
+
+._two{
+    margin-left: 6%;
+    padding-right: 125px;
+    border-radius: 12px;
+    height: 46px;
+    padding-top: 6px;
+
+}
+
+._one{
+    padding-right: 125px;
+    border-radius: 12px;
+    height: 46px;
+    padding-top: 6px;
+}
+
+.indexType{
+    font-weight: 800;
+    display: flex;
+    margin-top: 1rem;
+
+}
+
+.upload_btn{
+    background: #3163ad;
+    color: white;
+}
+
+.upload{
+    margin-right: 255px;
+    border-radius: 13px;
+    background: #3163ad;
+    color: white;
+    border: none;
+    margin-top: 1rem;
+
+
+}
+
+.upload_icon{
+    color: white;
+}
+
+.helpicon{
+    transform: scale(.7);
+    color: darkgray;
+}
+
+.content_settings{
+    margin-top: 1rem;
+}
+
+
+.content_color{
+    font-size: smaller;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.font_color{
+    padding-left: 2rem;
+
+}
+.color_picker{
+margin-top: 1rem;}
+
+.edit{
+    background: darkgray;
+
+}
+
+._color{
+    width: 152px;
+
+}
+
+.color_picker{
+    display: inline-flex;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+._picker{
+    border: none;
+    margin: 3px;
+    
+}
+
+._sec{
+    margin-left: 19px;
+
+}
+
+._spc{
+    margin-right: 13rem;
+
+}
+
+.drwpdwn{
+    margin-top: 1rem;
+    flex-direction: column;
+
+}
+
+.dwpbtn{
+    background: white;
+    color: blue;
 }
